@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/briancsparks/cuz-curl-rocks/issues"
   },
-  "homepage": "https://github.com/briancsparks/cuz-curl-rocks#readme"
+  "homepage": "https://github.com/briancsparks/cuz-curl-rocks#readme",
+  "dependencies": {
+    "sgsg": "https://github.com/briancsparks/sg/tarball/master",
+    "underscore": "^1.8.3"
+  }
 }

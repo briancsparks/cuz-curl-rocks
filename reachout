@@ -1,0 +1,32 @@
+#!/usr/bin/env node
+
+/* vim: set ft=javascript: */
+
+var sg          = require('sgsg');
+var _           = sg._;
+
+var libCurl     = require('./curl');
+var Curl        = libCurl.Curl;
+
+var ARGV        = sg.ARGV();
+
+var curler      = new Curl();
+var curl        = curler.curl();
+
+
+var main = function() {
+
+  //console.log(ARGV, sg.verbosity());
+
+  var url = ARGV.args[0] || ARGV.url;
+
+  return curl(_.rest(process.argv, 2), function(err, body) {
+    if (err) { return console.error(err); }
+
+    console.log(body);
+  });
+};
+
+
+main();
+
