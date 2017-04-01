@@ -1,0 +1,19 @@
+{
+  "name": "cuz-curl-rocks",
+  "version": "0.0.1",
+  "description": "Because cUrl rocks.",
+  "main": "curl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briancsparks/cuz-curl-rocks.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/briancsparks/cuz-curl-rocks/issues"
+  },
+  "homepage": "https://github.com/briancsparks/cuz-curl-rocks#readme"
+}
