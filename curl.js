@@ -167,7 +167,7 @@ lib.Curl = function(options_) {
             return callback(new Error('Failed to parse json'));
           }
 
-          return callback(null, body, {}, code);
+          return callback(null, body, {}, code, bodyStr);
         });
       }
     };
